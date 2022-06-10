@@ -48,5 +48,9 @@ if Q5 == "A":
 elif Q5 not in choices:
     print("You did choose one of the options provided for question 5")
 
+if quiz_score in range(0, 60):
+    print("You failed the quiz")
+elif quiz_score in range(60, 100):
+    print("YOU ARE A PYTHON MASTER YOU PASSED THE QUIZ!")
 
 print(f"Your score is {quiz_score} out of 100")
